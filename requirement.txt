@@ -1,0 +1,29 @@
+# ---------- UI ----------
+streamlit
+
+# ---------- Audio / YouTube ----------
+yt-dlp
+# local Whisper (needs ffmpeg installed on your system)
+openai-whisper
+torch
+
+audioop-lts; python_version >= "3.13"
+
+# ---------- LangChain (LCEL) + Groq ----------
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+# ---------- RAG: ChromaDB + HuggingFace embeddings ----------
+chromadb
+langchain-chroma
+langchain-huggingface
+sentence-transformers
+
+# ---------- Export (PDF / TXT) ----------
+fpdf2
+
+# ---------- Env / utils ----------
+python-dotenv

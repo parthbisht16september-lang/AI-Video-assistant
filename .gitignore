@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Generated files
+downloads/
+test_outputs/
+vector_db/
+.pytest_cache/
+.DS_Store
+*.log
